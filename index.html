@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+       <!-- <meta http-equiv="refresh" content="2" > -->
+        <style>
+            .h1{
+                color: white;
+             text-shadow: 5px 5px 2px red, -5px -5px 2px blue;
+             text-align: center;
+             position: sticky;
+             
+            }
+            @keyframes imgani{
+                100%{ transform: rotate(1080deg)}
+            }
+            .img1{
+                width: 250px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .img1:hover{
+                animation : imgani;
+                animation-duration: 4s;
+                animation-iteration-count: infinte;
+                cursor: pointer;
+            }
+            #t1{
+                margin-left: 250px;
+                box-shadow: 2px 20px 50px green,-2px -20px 50px yellow; 
+                font-size: 15px;
+                font-family: monospace;
+                 width: 500px;
+                  margin-top: 50px;
+                   padding-right: 0px;
+            }
+            @keyframes imgsani{
+                100%{
+                    transform: rotateY(360deg)
+                }
+            }
+            #a1{
+                margin-left: 350px;
+                margin-top: 50px;
+            }
+            
+            #img2{
+                width: 250px;
+                margin-left: 0px;
+                animation : imgsani;
+                animation-duration: 20s;
+                animation-iteration-count: infinte;
+                border: 10px;
+                border-radius: 10px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: green;
+                box-shadow: 5px 5px 25px yellow;
+            }
+            #img1{
+                width: 250px;
+                margin-left: 500px;
+                animation : imgsani;
+                animation-duration: 20s;
+                animation-iteration-count: infinte;
+                border: 10px;
+                border-radius: 10px;
+                border-style: solid;
+                border-width: 1px;
+                border-color: green;
+                box-shadow: 5px 5px 25px yellow;
+            }
+            .h2{
+                text-decoration: underline;
+                color: green;
+                text-align: center;
+                font-family: fantasy;
+                font-weight: bold;
+                font-size: 25px;
+                
+            }
+        </style>
+    </head>
+    <body bgcolor=black>
+        <h1 class="h1">  TERMINATOR  </h1>
+       <a href="https://en.wikipedia.org/wiki/The_Terminator" target="_blank"   ><img class="img1" src="data:image/jpeg;base64,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"  alt="terminator">    </a>
+       <img id="img2" src="https://cdn.vox-cdn.com/thumbor/ekK4XW22-Rbg8lLS7Sx04LKc5gc=/0x0:1020x680/1400x1400/filters:focal(510x340:511x341)/cdn2.vox-cdn.com/assets/4658579/terminator_endoskeleton_1020.jpg" >
+       <img id="img1" src="https://cdn.vox-cdn.com/thumbor/ekK4XW22-Rbg8lLS7Sx04LKc5gc=/0x0:1020x680/1400x1400/filters:focal(510x340:511x341)/cdn2.vox-cdn.com/assets/4658579/terminator_endoskeleton_1020.jpg" >
+       <table id="t1" border="10px" </table> >
+        <caption style="color: blue;"> INFO OF TERMINATOR </caption>
+        <tr bgcolor="yellow">
+            <th> NAME:- </th>
+            <th> PERSON WHO PLAYS/PLAYED TERMINATOR:- </th>
+            <th> KILL COUNT:- </th>
+        </tr>
+        <tr bgcolor="red">
+            <td> TERMINATOR </td>
+            <td style="text-align: center;"> ARNOLD SCHWARZENEGGER </td>
+            <td style="text-align: center;"> 32 </td>
+        </tr>
+        <h2 class="h2"> SOUND TRACK </h2>
+    <audio id="a1" controls>
+        <source src="https://www.google.com/search?q=the+terminator+theme&stick=H4sIAAAAAAAAAONgFuLSz9U3MDU3NrU0UuIEsQuzciyKtESzk630c0uLM5P1E3OSSnOtivPz0osXsYqUZKQqlKQW5WbmJZbkFykAubmpAO-BUp5HAAAA&sa=X&ved=2ahUKEwiwg9ntlsz6AhWXd94KHdVCBGYQri56BAghEAM&cshid=1665079127404267">
+        :( SORRY YOUR BROWSER DOESN'T LOAD AUDIO
+    </audio>
+    </table>
+    </body>
+</html>
